@@ -21,6 +21,13 @@ public class PromotionService {
 	private SkuUnitPriceRepo skuUnitPriceRepo;
 
 	public void computeBasket(SkuBasket basket) {
+		//get the list of items in the basket
+		//fetch the offers available
+		//check the best applicable offer for the items in the basket
+		//if there is a match in offers and basket items, apply the offer,update the finalComputedPrice 
+		//and remove items from the basket
+		//iterate till there are no items in the basket
+		//final price after computation will be stored in the finalComputedPrice 
 		
 		
 
