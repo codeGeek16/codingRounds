@@ -59,7 +59,7 @@ public class PromotionService {
 				//iterate till there are no items in the basket
 				//final price after computation will be stored in the finalComputedPrice 
 		
-				return 0.0f;
+				return 100.0f;
 	}
 
 }
