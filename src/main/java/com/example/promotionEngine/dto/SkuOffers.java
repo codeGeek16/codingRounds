@@ -1,27 +1,19 @@
 package com.example.promotionEngine.dto;
 
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class SkuOffers {
 
-	private List<String> skuName;
-	private List<Integer> skuCount;
+	private Map<String, Integer> skuNameQantityMap = new HashMap<>();
 	private float skuOfferPrice;
 
-	public List<String> getSkuName() {
-		return skuName;
+	public Map<String, Integer> getSkuNameQantityMap() {
+		return skuNameQantityMap;
 	}
 
-	public void setSkuName(List<String> skuName) {
-		this.skuName = skuName;
-	}
-
-	public List<Integer> getSkuCount() {
-		return skuCount;
-	}
-
-	public void setSkuCount(List<Integer> skuCount) {
-		this.skuCount = skuCount;
+	public void setSkuNameQantityMap(Map<String, Integer> skuNameQantityMap) {
+		this.skuNameQantityMap = skuNameQantityMap;
 	}
 
 	public float getSkuOfferPrice() {
